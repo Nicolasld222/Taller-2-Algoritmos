@@ -1,4 +1,4 @@
-let Numero = window.prompt("Ingrese un numero")
+let Numero = Number(prompt("Ingrese un numero"))
 
 if(Numero % 2 == 0){
     alert("Su numero es par")
@@ -6,3 +6,6 @@ if(Numero % 2 == 0){
 else{
     alert("Su numero es impar")
 }
+
+//Funcion
+
