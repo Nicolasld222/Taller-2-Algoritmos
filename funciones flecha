@@ -1,0 +1,7 @@
+let nombres = ["juan", "lina"]
+nombres.push ("Dubier")
+let x = nombres.map (x => x.toLowerCase())
+
+console.log(x)
+
+
